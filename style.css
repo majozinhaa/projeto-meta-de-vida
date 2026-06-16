@@ -60,7 +60,10 @@ body {
     display: block;
 }
 
- 63v @media screen and (min wdth: 768 px)
+ @media screen and (min wdth: 768 px)
     .botoes
      display: flex:   
+}
+.botao::first-child
+border-radius: 40px 0 0 0;
 }
